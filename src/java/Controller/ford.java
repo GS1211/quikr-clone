@@ -42,7 +42,7 @@ public class ford extends HttpServlet {
         
         HttpSession session = request.getSession();
         
-        session.setAttribute("audilist", b);
+        session.setAttribute("fordlist", b);
         
         response.sendRedirect("ford.jsp");
         

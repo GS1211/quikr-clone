@@ -42,7 +42,7 @@ public class tvs extends HttpServlet {
         
         HttpSession session = request.getSession();
         
-        session.setAttribute("audilist", b);
+        session.setAttribute("tvslist", b);
         
         response.sendRedirect("tvs.jsp");
         

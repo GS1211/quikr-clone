@@ -42,7 +42,7 @@ public class bajaj extends HttpServlet {
         
         HttpSession session = request.getSession();
         
-        session.setAttribute("audilist", b);
+        session.setAttribute("bajajlist", b);
         
         response.sendRedirect("bajaj.jsp");
         
